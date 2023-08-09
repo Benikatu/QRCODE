@@ -6,21 +6,32 @@ body {
     margin: 0;
     padding: 0;
 }
+
 h1 {
     color: #333;
 }
+
 p {
     margin-top: 20px;
 }
-a {
+
+footer {
+    background-color: #E8B122;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+a.button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007BFF;
+    background-color: #126E3C;
     color: white;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
-a:hover {
-    background-color: #0056b3;
+
+a.button:hover {
+    background-color: #0B4E2B;
 }
